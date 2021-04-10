@@ -1,17 +1,231 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Card</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body> 
- 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_gourav.css">
+    <link rel="stylesheet" href="style_soham.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+              <!--
+              * Template Name: TheEvent - v4.1.0
+              * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+              * Author: BootstrapMade.com
+              * License: https://bootstrapmade.com/license/
+            --><!-- rgba(101, 111, 150, 0.15) rgba(13, 20, 41, 0.8)-->
+              <style>
+                  #hero {
+                width: 100%;
+                height: 70vh;
+                background: url(../img/hero-bg.jpg) top center;
+                background-size: ;
+                overflow: hidden;
+                position: relative;
+              }
+
+
+
+              #hero:before {
+                content: "";
+                background: #353a40;
+                position: absolute;
+                bottom: 0;
+                top: 0;
+                left: 0;
+                right: 0;
+              }
+
+              #hero .hero-container {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                top: 50px;
+                right: 0;
+                display: flex;
+                justify-content: ;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 0 15px;
+              }
+
+              @media (max-width: 991px) {
+                #hero .hero-container {
+                  top: 70px;
+                }
+              }
+
+              #hero h1 {
+                color: #fff;
+                font-family: "Raleway", sans-serif;
+                font-size: 56px;
+                font-weight: 600;
+                text-transform: uppercase;
+              }
+
+              #hero h1 span {
+                color: #f82249;
+              }
+
+              @media (max-width: 991px) {
+                #hero h1 {
+                  font-size: 34px;
+                }
+              }
+
+              #hero p {
+                color: #ebebeb;
+                font-weight: 700;
+                font-size: 20px;
+              }
+
+              @media (max-width: 991px) {
+                #hero p {
+                  font-size: 16px;
+                }
+              }
+
+              #hero .about-btn {
+                font-family: "Raleway", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: 1px;
+                display: inline-block;
+                padding: 12px 32px;
+                border-radius: 50px;
+                transition: 0.5s;
+                line-height: 1;
+                margin: 10px;
+                color: #fff;
+                -webkit-animation-delay: 0.8s;
+                animation-delay: 0.8s;
+                border: 2px solid #fed136;
+              }
+
+              #hero .about-btn:hover {
+                background: #fed136;
+                color: #fff;
+              }
+
+              @-webkit-keyframes pulsate-btn {
+                0% {
+                  transform: scale(0.6, 0.6);
+                  opacity: 1;
+                }
+                100% {
+                  transform: scale(1, 1);
+                  opacity: 0;
+                }
+              }
+
+              @keyframes pulsate-btn {
+                0% {
+                  transform: scale(0.6, 0.6);
+                  opacity: 1;
+                }
+                100% {
+                  transform: scale(1, 1);
+                  opacity: 0;
+                }
+              }
+              #about {
+                background: url("../img/about-bg.jpg");
+                background-size: cover;
+                overflow: hidden;
+                position: relative;
+                color: ;
+                padding: 60px 0 40px 0;
+              }
+
+              @media (min-width: 1024px) {
+                #about {
+                  background-attachment: fixed;
+                }
+              }
+
+              #about:before {
+                content: "";
+                background: ;
+                position: absolute;
+                bottom: 0;
+                top: 0;
+                left: 0;
+                right: 0;
+              }
+
+              #about h2 {
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: ;
+              }
+
+              #about h3 {
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                color: ;
+              }
+
+              #about p {
+                font-size: 14px;
+                margin-bottom: 20px;
+                color: ;
+              }
+              </style>
+    <section id="hero">
+        <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://i.ibb.co/6Zz655N/Screenshot-2021-04-08-221529.jpg" align=center width=280>
+          <p class="mb-4 pb-0">presents</p>
+          <h1 class="mb-4 pb-0">YUVA</h1>
+          <p class="mb-4 pb-0">A social fest of Gopali youth welfare society</p>
+          <a href="" class="about-btn scrollto">Register Now</a>
+        </div>
+    </section>
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="https://i.ibb.co/QkqtXqN/Screenshot-2021-04-10-185322.jpg" width=270><!--a relevant image-->
+          </div>
+          <div class="col-lg-6  ">
+            <h2>About YUVA</h2>
+            <p>YUVA is a social fest of Gopali youth welfare society, IIT Kharagpur which aims to bring
+                together youth across the nation and instill in them a sense of social responsibility and
+                promote youth empowerment.
+            </p>
+            <p>
+            The event will be marked by the presence of various intellectuals from different fields, all
+            working towards a common goal for the greater good. The youth across the nation and
+            our donors, who are mostly alumni of prestigious Institutes IIT and IIM leading big
+            social enterprises in the country will participate along with the entire IIT Kharagpur
+            community.
+            </p>
+            <p>The festival inculcates various impactful events, exhibitions, lectures, workshops, and competitions to instill a sense of responsibility in the youth towards the society.</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+            <p>put dates of fest here</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+
+
+<!--start of Armaan's work-->
+
 <div class="container">
    <h1>Get Exposure</h1>
   <div class="card-deck">
@@ -41,5 +255,390 @@
     <img src="images/s9.jpg" class="img-fluid" alt="Responsive image">
 </div>
 
-</body>
+
+<br/><br/>
+
+<!--end of Armaan's work-->
+
+
+
+    <!--events section by Soham Chakraborty-->
+
+
+    <section id="events">
+      <h1 class="text-muted text-center">EVENTS</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mt-3">
+              <div class="product-1 align-items-center p-2 text-center">
+                <img class="card-img" src="https://image.freepik.com/free-vector/innovation-concept-illustration_114360-5578.jpg" alt="" class="rounded" width="160">
+                <div class="card-content">
+                  <p>Workshop: Tech as tool</p>
+
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#workshop">
+     Learn More
+    </button>
+
+                </div>
+
+      </div>
+      </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mt-3">
+              <div class="product-1 align-items-center p-2 text-center">
+                <img class="card-img" src="https://image.freepik.com/free-vector/meeting-concept-illustration_114360-717.jpg" alt="" class="rounded" width="160">
+                <div class="card-content">
+                  <p>Panel Discussion</p>
+
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#panel">
+     Learn More
+    </button>
+
+                </div>
+
+      </div>
+      </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mt-3">
+              <div class="product-1 align-items-center p-2 text-center">
+                <img class="card-img" src="https://image.freepik.com/free-vector/presentation-front-many-people_1325-435.jpg" alt="" class="rounded" width="160">
+                <div class="card-content">
+                  <p>
+                    "Want to be changemakers?" - Speaker session
+                  </p>
+
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#speaker">
+     Learn More
+    </button>
+
+                </div>
+
+      </div>
+      </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mt-3">
+              <div class="product-1 align-items-center p-2 text-center">
+                <img class="card-img" src="https://image.freepik.com/free-vector/happy-friends-celebrating-event-together_74855-7482.jpg" alt="" class="rounded" width="160" height ="522px">
+                <div class="card-content">
+                  <p>Aashayein: Cultural Program and Annual Donor Meet</p>
+
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aashayein">
+     Learn More
+    </button>
+
+                </div>
+
+      </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--events section ends here>
+
+
+    <!-Competition BY Gourav starts-->
+    <section id="compe">
+      <div class="container-sm-12">
+          <h1 class="font-weight-light text-center" style="font-size:50px;margin-top:10px;">Competitions</h1>
+          </div>
+
+          <div class="container mb-5 mt-5">
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-center">
+                     <img class="card-img" src="trivia.jpg" alt="" class="rounded" width="160">
+                    <div class="card-content">
+
+
+                    <!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+				 Social Trivia: Quiz Competition
+				</button>
+
+                    </div>
+
+          </div>
+          </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mt-3">
+              <div class="product-1 align-items-center p-2 text-center">
+                <img class="card-img" src="film1.jpg" alt="" class="rounded" width="160">
+                <div class="card-content">
+
+
+                <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+     Ad-making Competition
+    </button>
+
+                </div>
+
+      </div>
+      </div>
+      </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="modal fade" id="workshop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class='modal-header' style="background-color:#CACFD2;">
+    <h3 class='col-12 modal-title text-center'>
+      Workshop: tech as tools
+      <button style="font-size: 36px;" type="button" class="close" data-dismiss="modal" style="outline: none;">&times;</button>
+
+    </h3>
+    </div>
+
+      <!-- Shape -->
+      <div class="shape"></div>
+
+      <div class="modal-body">
+        <p class="card-text">
+          We are conducting a Tech-as-a-tool Workshop in association with DataKind, a
+          global nonprofit that harnesses the power of data science and AI in the service of
+          humanity.
+          The aim is to make students aware of the umpteen opportunities available in the non
+          corporate world, where many issue lie unattended, plethora of problems waiting to be
+          solved, where they can use their skills and knowledge to develop tools and softwares
+          that would impact a larger audience and would bring a change at a much greater level.
+          <br/><br/>
+        </p>
+        <button class = "card-btn" >
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Rules</a><span>&rarr;</span>
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Register Here</a><span>&rarr;</span>
+        </button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal fade" id="panel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class='modal-header' style="background-color:#CACFD2;">
+    <h3 class='col-12 modal-title text-center'>
+      Panel Discussion
+      <button style="font-size: 36px;" type="button" class="close" data-dismiss="modal" style="outline: none;">&times;</button>
+
+    </h3>
+    </div>
+
+      <!-- Shape -->
+      <div class="shape"></div>
+
+      <div class="modal-body">
+        <p class="card-text">
+          Gopali Youth Welfare Society brings a panel discussion on <strong>“Social Entrepreneurship:
+Starting something that matters”.</strong> The panel will comprise of 3 to 4 panelists and the discussion will be moderated by Prof. Bhaskar Bhowmik of Rajendra Mishra School of Entrepreneurship Engineering, IIT Kharagpur who is also in the advisory board of Gopali Youth Welfare Society.
+<br/>
+The potential speakers for the Panel Discussion are:
+<strong>
+  <ol>
+    <li>Shankar Maruwada</li>
+    <li>Ajaita Shah</li>
+    <li>Ankit Kawatra</li>
+  </ol>
+
+</strong>
+
+        <br/><br/>
+        </p>
+        <button class = "card-btn" >
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Rules</a><span>&rarr;</span>
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Register Here</a><span>&rarr;</span>
+        </button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal fade" id="speaker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class='modal-header' style="background-color:#CACFD2;">
+    <h3 class='col-12 modal-title text-center'>
+      “Want to be Changemakers?” - Speaker Session
+      <button style="font-size: 36px;" type="button" class="close" data-dismiss="modal" style="outline: none;">&times;</button>
+
+    </h3>
+    </div>
+
+      <!-- Shape -->
+      <div class="shape"></div>
+
+      <div class="modal-body">
+        <p class="card-text">
+
+
+        We are organizing an <strong>“Interactive Speaker Session: Want to be Changemakers?”</strong> as one of the event in the fest to motivate and inspire the youth across the nation to join
+for a greater purpose and be the reason for the change one wishes to see in the world.
+<br/>
+The Celebs Talks, is an opportunity to interact with someone who even after so much
+name and fame have come forward many time to serve the society. The Celeb will share
+his/her experience throughout his journey which may answer your many unanswered
+questions in life.
+
+          <br/><br/>
+        </p>
+        <button class = "card-btn" >
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Rules</a><span>&rarr;</span>
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Register Here</a><span>&rarr;</span>
+        </button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal fade" id="aashayein" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class='modal-header' style="background-color:#CACFD2;">
+    <h3 class='col-12 modal-title text-center'>
+      Aashayein: Cultural Program and Annual Donor Meet
+      <button style="font-size: 36px;" type="button" class="close" data-dismiss="modal" style="outline: none;">&times;</button>
+
+    </h3>
+    </div>
+
+      <!-- Shape -->
+      <div class="shape"></div>
+
+      <div class="modal-body">
+        <p class="card-text">
+          <strong>Aashayein</strong>,  the Annual day function of JVM where all the students of Jagriti Vidya
+Mandir (JVM) participate in various co-curricular activities and cultural event. This
+provides an platform to the student where they can showcase their talent and develop
+an interest in extracurricular activities along with the development of several social
+values like cooperation, team spirit and confidence.
+<br/>
+          <strong>Annual Donor Meet</strong>, where the 500+ Donors of Gopali Youth Welfare Society mostly
+alumni of IIT’s and IIM’s .will be invited to witness the amazing performance of JVM
+student.
+Here our all the donor will briefed about the impact we are creating on the society with
+their support, our ongoing project and future upcoming project.. The discussion session
+will be organised where all our project will be put to discussion for with viewpoint and
+valuable suggestion. The donors will be honoured with the personalised momemo as
+appreciation for their noble help.
+
+          <br/><br/>
+        </p>
+        <button class = "card-btn" >
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Rules</a><span>&rarr;</span>
+            <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Register Here</a><span>&rarr;</span>
+        </button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+<!--modal content-->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+        <div class='modal-header' style="background-color:#CACFD2;">
+      <h3 class='col-12 modal-title text-center'>
+        Social Quiz
+        <button style="font-size: 36px;" type="button" class="close" data-dismiss="modal" style="outline: none;">&times;</button>
+
+      </h3>
+    </div>
+
+	      <!-- Shape -->
+	      <div class="shape"></div>
+
+	      <div class="modal-body">
+          <p class="card-text">
+
+
+            <strong>Gopali Youth Welfare Society</strong> brings Nationwide Social Quiz competition in
+              association with Quiz Club of IIT Kharagpur, which aims to bring the brightest minds with a social inclination and a will to do something for the society,
+              and give them a platform to showcase their quizzing talents.<br><br>
+              The event will be carried out in two phases,
+              first one being a written MCQ Quiz and the Final round being the live round where selected teams will be present on a virtual platform.
+          </p>
+          <button class = "card-btn" >
+              <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Rules</a><span>&rarr;</span>
+              <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Register Here</a><span>&rarr;</span>
+          </button>
+
+	      		</div>
+	      	</div>
+	      </div>
+
+	    </div>
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class='modal-header' style="background-color:#CACFD2;">
+  <h3 class='col-12 modal-title text-center'>
+    AD Making
+    <button style="font-size: 36px;" type="button" class="close" data-dismiss="modal" style="outline: none;">&times;</button>
+
+  </h3>
+</div>
+    <!-- Shape -->
+    <div class="shape"></div>
+
+    <div class="modal-body">
+      <p class="card-text">
+        <strong>“She is Unstoppable: Breaking the Barriers”<br></strong>
+        We at Gopali Youth Welfare Society are organizing a nation wide short film making competition as part of our Social fest YUVA.
+        Participants are required to make a short film with a catchy concept and a tagline.
+      </p>
+      <button class = "card-btn" >
+          <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Rules</a><span>&rarr;</span>
+          <a class = "btn navbar-btn btn-primary"  href = "#" target = "_texturepack">Register Here</a><span>&rarr;</span>
+      </button>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+
+        </section>
+
+    <!--Competition BY Gourav ends-->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
 </html>
