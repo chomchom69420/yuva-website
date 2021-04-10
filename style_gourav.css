@@ -1,0 +1,121 @@
+@@import "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+#compe * {
+  margin: 0;
+  padding: 0;
+}
+
+#compe {
+width: 100%;
+
+background: url(greybg1.jpg) top center;
+background-size: cover;
+overflow: hidden;
+position: relative;
+}
+
+#compe h1 {
+color: #626869;
+font-family: "Raleway", sans-serif;
+font-size: 56px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+#compe html {
+  box-sizing: content-box;
+  font-size: 12.5%;
+}
+
+.container{
+  margin-top: 110px !important;
+}
+
+#compe .card{
+  border: none;
+  outline: none;
+  background-color: #CACFD2;
+  border-radius: 20px;
+
+
+}
+
+#compe .card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+
+
+
+ .card:hover{
+   transform: translateY(-0.5%);
+   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+ }
+
+ #compe .card-content {
+   padding: 2rem;
+ }
+
+ #compe .card-header {
+   font-size: 20px;
+   font-weight: 500;
+   color: #0d0d0d;
+   margin-bottom: 1.5rem;
+ }
+ #compe .card-text {
+   font-size: 14px;
+   letter-spacing: 0.1rem;
+   line-height: 1.7;
+   color: #3d3d3d;
+   margin-bottom: 2.5rem;
+ }
+
+ #compe .card-btn {
+   display: block;
+   width: 100%;
+   padding: 1.5rem;
+   font-size: 14px;
+   text-align: left;
+   color: #3363ff;
+   background-color: #d8e0fd;
+   border: none;
+   border-radius: 0.4rem;
+   transition: 0.2s;
+   cursor: pointer;
+   letter-spacing: 0.1rem;
+ }
+
+ #compe .card-btn span {
+   margin-left: 1rem;
+   transition: 0.2s;
+ }
+
+ #compe.card-btn:hover,
+ #compe.card-btn:active {
+   background-color: #c2cffc;
+ }
+
+ #compe.btn:hover,
+ #compe.btn:active {
+   background-color: #c2cffc;
+ }
+
+ #compe .card-btn:hover span,
+ #compe.card-btn:active span {
+   margin-left: 1.5rem;
+ }
+ #compe .modal-open {
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+}
+@media screen and (max-width: 600px){
+	#compe .shape{
+		clip-path: inset(0% 0% 83% 0%);
+		-webkit-clip-path: inset(0% 0% 83% 0%);
+	}
+}
